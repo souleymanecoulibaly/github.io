@@ -1,0 +1,112 @@
+h2 {
+    color: blue;
+    font-family: Arial; 
+    class:.contactform;
+    fontfamily: bold;
+}
+p {
+    color:maroon;
+}
+.heading {
+    color:teal;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+#about {
+    font-family: cursive; text-transform: capitalize;
+}
+.list li {
+    color:green;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial;
+}
+p {
+    font-size: 14px;
+}
+h1 {
+    text-align: center;
+}
+#contactsection {
+    background-color: blanchedalmond;
+}
+img {
+    border-radius: 100%;
+}
+table, th, td {
+    border: 3px; 
+    padding: 10px;
+    border: 3px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+#aboutselection {
+    padding: 100px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Style the top navigation */
+.topnav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+main {
+    margin-top: 20px;
+}
+header {
+    margin-top: 50px;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+
+    .topnav.responsive {
+  
+      position: fixed;
+  
+  }
+  .topnav.responsive a.icon {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+  }
+
+ 
+
+  .topnav.responsive a {
+
+    float: none;
+
+    display: block;
+
+    text-align: left;
+
+  }
+
+}
